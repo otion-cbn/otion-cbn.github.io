@@ -117,7 +117,13 @@ body p{
   padding: 5px 15px;
 }
 
+.help-title {
+  text-align: center;
+}
 
+.help-nav{
+  margin-bottom: 20px;
+}
 
 @font-face {
 	font-family: 'Nexa-Regular';
