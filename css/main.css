@@ -117,6 +117,35 @@ body p{
   padding: 5px 15px;
 }
 
+.breadcrumb{
+  background-color: transparent;
+  margin: 8px;
+}
+.help-breadcrumb {
+  background-color: #000;
+}
+
+.help-item-out{
+  height: 200px;
+  
+}
+.help-item-in{
+ 
+}
+
+.help-item a{
+text-align: center;
+}
+
+.help-space{
+  margin: 30px;
+}
+
+.help-top{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .help-title {
   text-align: center;
 }
