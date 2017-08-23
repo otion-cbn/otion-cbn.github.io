@@ -1,487 +1,663 @@
-<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" lang=""><head>
-<meta charset="utf-8">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>Otion</title>
-<meta name="description" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<!doctype html>
+<!--[if lt IE 7]><html lang="en" class="no-js ie6"><![endif]-->
+<!--[if IE 7]><html lang="en" class="no-js ie7"><![endif]-->
+<!--[if IE 8]><html lang="en" class="no-js ie8"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
 
-<link rel="shortcut icon" type="image/x-icon" href="images/otion.ico">
+<head>
+    <meta charset="UTF-8">
+    <title>Otion by PT Cyberindo Aditama</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="shortcut icon" href="otion.ico">
+    
+    <!-- Bootstrap 3.3.2 -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/js/rs-plugin/css/settings.css">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
 
 
-<link rel="stylesheet" href="css/normalize.css">
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500,700" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="css/owl.carousel.css">
-<link rel="stylesheet" href="css/owl.theme.css">
-<link rel="stylesheet" href="css/animate.css">
-<link rel="stylesheet" href="css/slicknav.min.css">
-<link rel="stylesheet" href="css/responsive.css">
-<link rel="stylesheet" href="css/main.css">
-<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script type="text/javascript" src="assets/js/modernizr.custom.32033.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
-<body><div class="slicknav_menu"><a href="#" aria-haspopup="true" tabindex="0" class="slicknav_btn slicknav_collapsed" style="outline: none;"><span class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a><ul class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
-	<li><a class="active" href="#home" role="menuitem" tabindex="-1">Home</a></li>
-	<li><a href="#features" role="menuitem" tabindex="-1">Features</a></li>
-	<li><a href="#testimonial" role="menuitem" tabindex="-1">Testimonial</a></li>
-	<li><a href="#screenshots" role="menuitem" tabindex="-1">Screenshot</a></li>
-	<!-- <li><a href="#clients">Clients</a></li> -->
-	<li><a href="#subscribe" role="menuitem" tabindex="-1">Subscribe</a></li>
-	<li><a href="#contact" role="menuitem" tabindex="-1">Contact</a></li>
-</ul></div>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-            <![endif]-->
 
-            <section class="intro" id="home">
-            	<div class="menu-bar menu original" style="visibility: hidden;">
-            		<div class="container">
-            			<div class="row">
-            				<div class="col-md-4">
-            					<div id="logo">		
-            						<!-- <a href=""><img src="images/logo.png" alt="" title="" height="23px" style="float: left;"></a> -->
-            					</div>
-            				</div>
-            				<div class="col-md-8">
-            					<ul class="list-unstyled" id="main-menu">
-            						<li><a class="active" href="#home">Home</a></li>
-            						<li><a href="#features">Features</a></li>
-            						<li><a href="#testimonial">Testimonial</a></li>
-            						<li><a href="#screenshots">Screenshot</a></li>
-            						<!-- <li><a href="#clients">Clients</a></li> -->
-            						<li><a href="#subscribe">Subscribe</a></li>
-            						<li><a href="#contact">Contact</a></li>
-            					</ul>
-            				</div>
-            			</div>
-            		</div>
-            	</div><div class="menu-bar menu cloned" style="position: fixed; top: 0px; margin-top: 0px; z-index: 500; background: rgb(0, 0, 0); display: block; left: 0px; width: 1422px;">
-            	<div class="container">
-            		<div class="row">
-            			<div class="col-md-4">
-            				<div id="logo">		
-            					<a href=""><img src="images/logo.png" alt="" title="" height="23px" style="float: left;"></a>
-            				</div>
-            			</div>
-            			<div class="col-md-8">
-            				<ul class="list-unstyled" id="main-menu">
-            					<li><a class="active" href="#home">Home</a></li>
-            					<li><a href="#features">Features</a></li>
-            					<li><a href="#testimonial">Testimonial</a></li>
-            					<li><a href="#screenshots">Screenshot</a></li>
-            					<!-- <li><a href="#clients">Clients</a></li> -->
-            					<li><a href="#subscribe">Subscribe</a></li>
-            					<li><a href="#contact">Contact</a></li>
-            				</ul>
-            			</div>
-            		</div>
-            	</div>
+<body>
+    
+    <div class="pre-loader">
+        <div class="load-con">
+            <img src="assets/img/freeze/otionlogo.png" class="animated fadeInDown" alt="">
+            <div class="spinner">
+              <div class="bounce1"></div>
+              <div class="bounce2"></div>
+              <div class="bounce3"></div>
             </div>
-            <!-- Menu Ends here -->
-            <div class="intro-content">
-            	<div class="container">
-            		<div class="row">
-            			<div class="col-md-4 col-sm-6 col-xs-12 intro-image">
-            				<img src="images/hand3.png" alt="">
-            			</div>
-            			<div class="col-md-8 col-sm-6 col-xs-12 intro-texts">
-            				<h1>All Your Event Technology, Seamlessly Integrated.</h1>
-            				<span>One event app. Countless ways to capture their attention.</span>
-							<!-- <ul class="list-unstyled">
-								<li><a href="">Contact Us</a></li>
-								<li><a href="">About App</a></li>
-								<li><a href="">Subscribe</a></li>
-							</ul> -->
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- Intro Section Ends -->
-		
-		<section class="features" id="features">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 col-sm-12 wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-						<h2>Features</h2>
-					</div>
-					<div class="col-md-3 col-sm-6 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
-						<div class="single-service">
-							<p style="background:#EE3867;"><i class="fa fa-heart-o"></i></p>
-							<h3>Explore</h3>
-							<p>Help attendees stay relevant by putting everything they need in the palm of their hands.</p>
-							<p><a href="">Read More</a></p>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
-						<div class="single-service">
-							<p style="background:#3DB39D;"><i class="fa fa-pencil"></i></p>
-							<h3>Engage</h3>
-							<p>Drive interaction to help attendees nurture professional, productive relationships.</p>
-							<p><a href="">Read More</a></p>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6 wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
-						<div class="single-service">
-							<p style="background:#57C7ED;"><i class="fa fa-mobile"></i></p>
-							<h3>Promote</h3>
-							<p>Increase exposure and lead generation for sponsors and exhibitors, in the event app and out.</p>
-							<p><a href="">Read More</a></p>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6 wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
-						<div class="single-service">
-							<p style="background:#324E5C;"><i class="fa fa-smile-o"></i></p>
-							<h3>Analyze</h3>
-							<p>Demonstrate your success with analytic insights built right in the event app.</p>
-							<p><a href="">Read More</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- Features Section Ends Here -->
-		
-		<section class="other-features">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-5 col-sm-5 wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-						<img src="images/nexa-mob.png" alt="">
-					</div>
-					<div class="col-md-7 col-sm-7 wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-						<h2>Connect the Right People, Content, and Sessions</h2>
-						<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend metus dapibus tincidunt suscipit consectetur adipiscing elit Mauris eleifend metus dapibus.</span>
-						<ul class="list-unstyled">
-							<li><i class="fa fa-cogs"></i> <p>Attendee List and Profiles. Facilitate networking based on interests, titles, and more.</p></li>
-							<li><i class="fa fa-cogs"></i> <p>View Sessions. Ensure attendees discover the most relevant connections and sessions with smart recommendations.</p></li>
-							<li><i class="fa fa-cogs"></i> <p>QR Code Integration. Empower attendees to initiate conversations with each other.
-							</p></li>
-							<li><i class="fa fa-cogs"></i> <p>Attendee Meeting Scheduling. Enable attendees to easily identify connections, find mutually available times, and schedule meetings in just a few taps.</p></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--Other Features Ends Here-->
-		
-		<section class="about-app">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-5 col-sm-7">
-						<img class="wow slideInLeft" src="images/left-mob-front.png" alt="" style="visibility: visible; animation-name: slideInLeft;">
-						<img class="wow slideInUp" src="images/left-mob-front-2.png" alt="" style="visibility: visible; animation-name: slideInUp;">
-						
-					</div>
-					<div class="col-md-7 col-sm-5 wow slideInRight" style="visibility: visible; animation-name: slideInRight;">
-						<h2>About Our App</h2>
-						<h3>Best Features of Our App</h3>
-						<p>Integer eu imperdiet augue. Quisque nibh nisi, varius sodales consectetur vitae, volutpat quis odio. Aenean mattis diam molestie maximus condimentum. Fusce vel ipsum ornare nulla efficitur tristique nec et enim. Maecenas ultricies magna et orci ullamcorper egestas.
-						</p>
-						<p>Proin ut mauris ex. Suspendisse sed ante iaculis, elementum diam consectetur, aliquet mauris. Donec sit amet nunc sapien. Nam faucibus velit sed odio sollicitudin posuere. Aliquam ut nisl lectus.</p>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- About App Section Ends Here -->
-		
-		<section class="app-screenshot">
-			<div class="container" id="screenshots">
-				<div class="row">
-					<div class="col-md-12 wow fadeInUp">
-						<h2>App Screenshot</h2>
-					</div>
-					<div id="owl-example" class="owl-carousel col-md-12 wow fadeInUp">
-						<div><img src="images/1.jpg" alt="" /></div>
-						<div><img src="images/2.jpg" alt="" /></div>
-						<div><img src="images/3.jpg" alt="" /></div>
-						<div><img src="images/4.jpg" alt="" /></div>
-						<div><img src="images/5.jpg" alt="" /></div>
-						<div><img src="images/6.jpg" alt="" /></div>
-						<div><img src="images/7.jpg" alt="" /></div>
-						<div><img src="images/1.jpg" alt="" /></div>
-						<div><img src="images/2.jpg" alt="" /></div>
-						<div><img src="images/3.jpg" alt="" /></div>
-						<div><img src="images/4.jpg" alt="" /></div>
-						<div><img src="images/5.jpg" alt="" /></div>
-						<div><img src="images/6.jpg" alt="" /></div>
-						<div><img src="images/7.jpg" alt="" /></div>
-					</div>
+        </div>
+    </div>
+   
+    <header>
+        
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="fa fa-bars fa-lg"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">
+                            <img src="assets/img/freeze/otionlogo.png" alt="" class="logo">
+                        </a>
+                    </div>
 
-				</div>
-			</div>
-		</section>
-			<!-- App Screenshot Ends Here-->
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-			<section class="testimonial" id="testimonial">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12 wow slideInLeft" style="visibility: visible; animation-name: slideInLeft;">
-							<h2>What They Say</h2>
-						</div>
-						<div class="col-md-12 wow slideInLeft" style="visibility: visible; animation-name: slideInLeft;">
-							<div id="testimonial-carousel" class="owl-carousel col-md-12 owl-theme" style="opacity: 1; display: block;">
-								<div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 6660px; left: 0px; display: block; transition: all 0ms ease; transform: translate3d(0px, 0px, 0px);"><div class="owl-item" style="width: 1110px;"><div class="single-client col-md-6">
-									<img src="images/iphone_user.png" alt="">
-									<p>Stakeholders and attendees were pleased with the app, and things went really smoothly onsite. Eventbase was a great team to work with, and I really appreciated the ability and efforts to configure the app to suit our needs.s</p>
-									<ul class="list-unstyled">
-										<li><a href=""><i class="fa fa-star"></i></a></li>
-										<li><a href=""><i class="fa fa-star"></i></a></li>
-										<li><a href=""><i class="fa fa-star"></i></a></li>
-										<li><a href=""><i class="fa fa-star"></i></a></li>
-										<li><a href=""><i class="fa fa-star"></i></a></li>
-									</ul>
-								</div></div><div class="owl-item" style="width: 1110px;"><div class="single-client col-md-6">
-								<img src="images/iphone_user.png" alt="">
-								<p>Integrating new ideas and technologies into the fabric of SXSW is always something we strive to do. We were excited to work with Eventbase on this large-scale project as mobile has become such an important platform for us.</p>
-								<ul class="list-unstyled">
-									<li><a href=""><i class="fa fa-star"></i></a></li>
-									<li><a href=""><i class="fa fa-star"></i></a></li>
-									<li><a href=""><i class="fa fa-star"></i></a></li>
-									<li><a href=""><i class="fa fa-star"></i></a></li>
-									<li><a href=""><i class="fa fa-star"></i></a></li>
-								</ul>
-							</div></div><div class="owl-item" style="width: 1110px;"><div class="single-client col-md-6">
-							<img src="images/iphone_user.png" alt="">
-							<p>The analytics out of our event is really going to guide what we’re doing in the upcoming year because we can see how people are really engaging with our app and how important it was to that onsite experience.</p>
-							<ul class="list-unstyled">
-								<li><a href=""><i class="fa fa-star"></i></a></li>
-								<li><a href=""><i class="fa fa-star"></i></a></li>
-								<li><a href=""><i class="fa fa-star"></i></a></li>
-								<li><a href=""><i class="fa fa-star"></i></a></li>
-								<li><a href=""><i class="fa fa-star"></i></a></li>
-							</ul>
-						</div></div></div></div>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#about">about</a>
+                            </li>
+                            <li><a href="#features">features</a>
+                            </li>
+                            <li><a href="#reviews">reviews</a>
+                            </li>
+                            <li><a href="#screens">screens</a>
+                            </li>
+                            <li><a href="#demo">demo</a>
+                            </li>
+                            <li><a class="getApp" href="#getApp">get app</a>
+                            </li>
+                            <li><a href="#support">support</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-->
+        </nav>
 
+        
+        <!--RevSlider-->
+        <div class="tp-banner-container">
+            <div class="tp-banner" >
+                <ul>
+                    <!-- SLIDE  -->
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
+                        <!-- MAIN IMAGE -->
+                        <img src="assets/img/transparent.png"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                        <!-- LAYERS -->
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption lfl fadeout hidden-xs"
+                            data-x="left"
+                            data-y="bottom"
+                            data-hoffset="30"
+                            data-voffset="0"
+                            data-speed="500"
+                            data-start="700"
+                            data-easing="Power4.easeOut">
+                            <img src="assets/img/freeze/Slides/hand-freeze2.png" alt="">
+                        </div>
 
-						<div class="owl-controls clickable"><div class="owl-pagination"><div class="owl-page active"><span class=""></span></div><div class="owl-page"><span class=""></span></div><div class="owl-page"><span class=""></span></div></div></div></div>
-					</div>
-					
-				</div>
-			</div>
-		</section>
-		<!--Testimonial Section Ends Here-->
-		
-		<!-- <section class="clients-logo" id="clients">
-			<div class="container">
-				<div class="row">
-					<div id="clients-logo" class="owl-carousel col-md-12 wow slideInRight">
-						<div><img src="images/client02.png" alt="" /></div>
-						<div><img src="images/client06.png" alt="" /></div>
-						<div><img src="images/client03.png" alt="" /></div>
-						<div><img src="images/client04.png" alt="" /></div>
-						<div><img src="images/client05.png" alt="" /></div>
-						<div><img src="images/client06.png" alt="" /></div>
-						<div><img src="images/client07.png" alt="" /></div>
-						<div><img src="images/client01.png" alt="" /></div>
-						<div><img src="images/client08.png" alt="" /></div>
-						<div><img src="images/client09.png" alt="" /></div>
-					</div>
-				</div>
-			</div>
-		</section> -->
-		<!-- Clients Logo Section Ends Here -->
-		
-		<!-- <section class="price-list">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 wow zoomIn">
-						<h2>Our Prices</h2>
-					</div>
-					<div class="col-md-4 wow slideInLeft">
-						<ul class="list-unstyled">
-							<li class="item-type">Basic</li>
-							<li class="item-price">
-								<span class="price-text">$200/<sub>mon</sub></span>
-								<span class="offer-text">The offer is better for you and you can select now.</span>
-							</li>
-							<li>Awesome Service</li>
-							<li>Total bug free</li>
-							<li>Responsive Design</li>
-							<li>User Friendly</li>
-							<li>24/7 Support</li>
-							<li><a href="">Purchase</a></li>
-						</ul>
-					</div>
-					<div class="col-md-4 wow slideInUp">
-						<ul class="list-unstyled focused">
-							<li class="item-type">Regular</li>
-							<li class="item-price">
-								<span class="price-text">$500/<sub>mon</sub></span>
-								<span class="offer-text">The offer is better for you and you can select now.</span>
-							</li>
-							<li>Awesome Service</li>
-							<li>Total bug free</li>
-							<li>Responsive Design</li>
-							<li>User Friendly</li>
-							<li>24/7 Support</li>
-							<li><a href="">Purchase</a></li>
-						</ul>
-					</div>
-					<div class="col-md-4 wow slideInRight">
-						<ul class="list-unstyled">
-							<li class="item-type">Business</li>
-							<li class="item-price">
-								<span class="price-text">$1000/<sub>mon</sub></span>
-								<span class="offer-text">The offer is better for you and you can select now.</span>
-							</li>
-							<li>Awesome Service</li>
-							<li>Total bug free</li>
-							<li>Responsive Design</li>
-							<li>User Friendly</li>
-							<li>24/7 Support</li>
-							<li><a href="">Purchase</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</section> -->
-		<!-- Price List Section Ends Here -->
-		
-		<section class="get-app" id="subscribe">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h2 class="wow fadeIn" style="visibility: visible; animation-name: fadeIn;">Get Our App </h2>
-						<p class="wow slideInUp" style="visibility: visible; animation-name: slideInUp;">Like what you've seen so far? Download our app now to know the latest event!</p>
-						<div class="app-location wow slideInUp" style="visibility: visible; animation-name: slideInUp;">
-							<ul class="list-unstyled">
-								<li><a href=""><img src="images/playstore.png" alt=""></a></li>
-								<li><a href=""><img src="images/app-store.png" alt=""></a></li>
-							</ul>
-						</div>
-						<form action="" class="wow slideInUp" style="visibility: visible; animation-name: slideInUp;">
-							<input type="text" name="" placeholder="Your Email">
-							<input type="submit" value="Get Now">
-						</form>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- Get App Section Ends Here -->
-		
-		<div class="footer">
-			<section class="contact" id="contact">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<h2 class="wow fadeIn" style="visibility: hidden; animation-name: none;">Get In Touch</h2>
-							<form action="">
-								<input class="wow slideInLeft" type="text" name="" placeholder="Your Name" style="visibility: hidden; animation-name: none;">
-								<input class="wow slideInRight" type="text" name="" placeholder="Your Email" style="visibility: hidden; animation-name: none;">
-								<textarea class="wow slideInLeft" name="" placeholder="Your Message" style="visibility: hidden; animation-name: none;"></textarea>
-								<input class="wow slideInRight" type="submit" value="Send Message" style="visibility: hidden; animation-name: none;">
-							</form>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!--Contact Section Ends Here-->
-			
-			<section class="footer-bottom">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<p class="wow fadeInUp" style="visibility: hidden; animation-name: none;">Lets Contact</p>
-							<ul class="wow fadeInUp" style="visibility: hidden; animation-name: none;">
-								<li><a href="https://www.facebook.com/cbnInternet"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="https://www.twitter.com/CBNinternet"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="https://www.youtube.com/cbninternet"><i class="fa fa-youtube"></i></a></li>
-								<li><a href="https://www.cbn.net.id"><i class="fa fa-dribbble"></i></a></li>
-								<li><a href="https://www.instagram.com/cbninternet"><i class="fa fa-instagram"></i></a></li>
-								<li><a href=""><i class="fa fa-rss"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</section>
-		</div>
-		
-		<script src="js/vendor/jquery-1.11.3.min.js"></script>
-		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/owl.carousel.min.js"></script>
-		<script type="text/javascript">
-			$(document).ready(function() {
+                        <div class="tp-caption lfl fadeout visible-xs"
+                            data-x="left"
+                            data-y="center"
+                            data-hoffset="700"
+                            data-voffset="0"
+                            data-speed="500"
+                            data-start="700"
+                            data-easing="Power4.easeOut">
+                            <img src="assets/img/freeze/iphone-freeze2.png" alt="">
+                        </div>
 
-				$("#owl-example").owlCarousel({
-					items : 4,
-					navigation : false,
-					navigationText : ["prev","next"],
-					paginationNumbers: true
-				});
-				$("#testimonial-carousel").owlCarousel({
-					items : 1,
-					itemsCustom : true,
-					itemsDesktop : [1199,1],
-					itemsDesktopSmall : [980,1],
-					itemsTablet: [768,1],
-					itemsTabletSmall: true,
-					itemsMobile : [479,1],
-					singleItem : true,
-					itemsScaleUp : true,
-					responsive : true
-				});
-			 //   $("#clients-logo").owlCarousel({
-				// items : 6,
-				// paginationNumbers : false,
-				// navigation : false,
-			 //   });
-			});
-		</script>
-		<script src="js/wow.min.js"></script>
-		<script>
-			new WOW().init();
-		</script>
-		<script src="js/plugins.js"></script>
-		<script src="js/main.js"></script>
-		<script type="text/javascript">
-			// handle links with @href started with '#' only
-			$(document).on('click', 'a[href^="#"]', function(e) {
-				// target element id
-				var id = $(this).attr('href');
-				// target element
-				var $id = $(id);
-				if ($id.length === 0) {
-					return;
-				}
-				// prevent standard hash navigation (avoid blinking in IE)
-				e.preventDefault();
-				// top position relative to the document
-				var pos = $(id).offset().top;
-				// animated top scrolling
-				$('body, html').animate({scrollTop: pos}, 1000);
-			});
-		</script>
-		<script type="text/javascript">
-			// Create a clone of the menu, right next to original.
-			$('.menu').addClass('original').clone().insertAfter('.menu').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','0').css('z-index','500').css('background','#000').removeClass('original').hide();
-			scrollIntervalID = setInterval(stickIt, 10);
-			function stickIt() {
-				var orgElementPos = $('.original').offset();
-				orgElementTop = orgElementPos.top;
-				if ($(window).scrollTop() >= (orgElementTop)) {
-				// scrolled past the original position; now only show the cloned, sticky element.
+                        <div class="tp-caption large_white_bold sft" data-x="550" data-y="center" data-hoffset="0" data-voffset="-80" data-speed="500" data-start="1200" data-easing="Power4.easeOut">
+                            Otion
+                        </div>
+                        <div class="tp-caption large_white_light sfr" data-x="770" data-y="center" data-hoffset="0" data-voffset="-80" data-speed="500" data-start="1400" data-easing="Power4.easeOut">
+                            Your
+                        </div>
+                        <div class="tp-caption large_white_light sfb" data-x="550" data-y="center" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="1500" data-easing="Power4.easeOut">
+                            Event Networking App
+                        </div>
 
-				// Cloned element should always have same left position and width as original element.     
-				orgElement = $('.original');
-				coordsOrgElement = orgElement.offset();
-				leftOrgElement = coordsOrgElement.left;  
-				widthOrgElement = orgElement.css('width');
-				$('.cloned').css('left',leftOrgElement+'px').css('top',0).css('width',widthOrgElement).show();
-				$('.original').css('visibility','hidden');
-			} else {
-				// not scrolled past the menu; only show the original menu.
-				$('.cloned').hide();
-				$('.original').css('visibility','visible');
-			}
-		}
-	</script>
-	<script src="js/jquery.slicknav.min.js"></script>
-	<script>
-		$(function(){
-			$('#main-menu').slicknav();
-		});
-	</script>
+                        <div class="tp-caption sfb hidden-xs" data-x="550" data-y="center" data-hoffset="0" data-voffset="85" data-speed="1000" data-start="1700" data-easing="Power4.easeOut">
+                            <a href="#about" class="btn btn-primary inverse btn-lg">LEARN MORE</a>
+                        </div>
+                        <div class="tp-caption sfr hidden-xs" data-x="730" data-y="center" data-hoffset="0" data-voffset="85" data-speed="1500" data-start="1900" data-easing="Power4.easeOut">
+                            <a href="#getApp" class="btn btn-default btn-lg">GET APP</a>
+                        </div>
+
+                    </li>
+                    <!-- SLIDE 2 -->
+                    <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000" >
+                        <!-- MAIN IMAGE -->
+                        <img src="assets/img/transparent.png"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                        <!-- LAYERS -->
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption lfb fadeout hidden-xs"
+                            data-x="center"
+                            data-y="bottom"
+                            data-hoffset="0"
+                            data-voffset="0"
+                            data-speed="1000"
+                            data-start="700"
+                            data-easing="Power4.easeOut">
+                            <img src="assets/img/freeze/Slides/freeze-slide2.png" alt="">
+                        </div>
+
+                        
+                        <div class="tp-caption large_white_light sft" data-x="center" data-y="250" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="1400" data-easing="Power4.easeOut">
+                            Simple and User Friendly <i class="fa fa-heart"></i>
+                        </div>
+                        
+                        
+                    </li>
+
+                    <!-- SLIDE 3 -->
+                    <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000" >
+                        <!-- MAIN IMAGE -->
+                        <img src="assets/img/transparent.png"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                        <!-- LAYERS -->
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption customin customout hidden-xs"
+                            data-x="right"
+                            data-y="center"
+                            data-hoffset="0"
+                            data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-voffset="50"
+                            data-speed="1000"
+                            data-start="700"
+                            data-easing="Power4.easeOut">
+                            <img src="assets/img/freeze/Slides/family-freeze.png" alt="">
+                        </div>
+
+                        <div class="tp-caption customin customout visible-xs"
+                            data-x="center"
+                            data-y="center"
+                            data-hoffset="0"
+                            data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-voffset="0"
+                            data-speed="1000"
+                            data-start="700"
+                            data-easing="Power4.easeOut">
+                            <img src="assets/img/freeze/Slides/family-freeze.png" alt="">
+                        </div>
+
+                        <div class="tp-caption lfb visible-xs" data-x="center" data-y="center" data-hoffset="0" data-voffset="400" data-speed="1000" data-start="1200" data-easing="Power4.easeOut">
+                            <a href="#" class="btn btn-primary inverse btn-lg">Purchase</a>
+                        </div>
+
+                        
+                        <div class="tp-caption mediumlarge_light_white sfl hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="-50" data-speed="1000" data-start="1000" data-easing="Power4.easeOut">
+                           All Event Networking
+                        </div>
+                        <div class="tp-caption mediumlarge_light_white sft hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="1200" data-easing="Power4.easeOut">
+                           in One App
+                        </div>
+                        <div class="tp-caption small_light_white sfb hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="80" data-speed="1000" data-start="1600" data-easing="Power4.easeOut">
+                           <p>More than an event application, Otion is an all-in-one Events Networking App.<br>Bring attendees together across devices with Otion networking communities</p>
+                        </div>
+
+                        <div class="tp-caption lfl hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="160" data-speed="1000" data-start="1800" data-easing="Power4.easeOut">
+                            <a href="#features" class="btn btn-primary inverse btn-lg">See Features</a>
+                        </div>
+                        
+                        
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
 
 
-</body></html>
+    </header>
+
+
+    <div class="wrapper">
+
+        
+
+        <section id="about">
+            <div class="container">
+                
+                <div class="section-heading scrollpoint sp-effect3">
+                    <h1>About App</h1>
+                    <div class="divider"></div>
+                    
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <div class="about-item scrollpoint sp-effect2">
+                            <i class="fa fa-search fa-2x"></i>
+                            <h3>EXPLORE</h3>
+                            <p>Help attendees stay relevant by putting everything they need in the palm of their hands.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6" >
+                        <div class="about-item scrollpoint sp-effect5">
+                            <i class="fa fa-eye fa-2x"></i>
+                            <h3>ENGAGE</h3>
+                            <p>Drive interaction to help attendees nurture professional, productive relationships.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6" >
+                        <div class="about-item scrollpoint sp-effect5">
+                            <i class="fa fa-handshake-o fa-2x"></i>
+                            <h3>PROMOTE</h3>
+                            <p>Increase exposure and lead generation for sponsors and exhibitors, in the event app and out.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6" >
+                        <div class="about-item scrollpoint sp-effect1">
+                            <i class="fa fa-users fa-2x"></i>
+                            <h3>NETWORKING</h3>
+                            <p>We provides you with a great source of connections, and opens the door to talk to highly influential people.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features">
+            <div class="container">
+                <div class="section-heading scrollpoint sp-effect3">
+                    <h1>Features</h1>
+                    <div class="divider"></div>
+                    <p>Learn more about this feature packed App</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 scrollpoint sp-effect1">
+                        <div class="media text-right feature">
+                            <a class="pull-right">
+                                <i class="fa fa-cogs fa-2x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h3 class="media-heading">User Settings</h3>
+                                You can personalized your account here.
+                            </div>
+                        </div>
+                        <div class="media text-right feature">
+                            <a class="pull-right">
+                                <i class="fa fa-inbox fa-2x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h3 class="media-heading">Notification</h3>
+                                Never miss an update of the event anymore.
+                            </div>
+                        </div>
+                        <div class="media text-right feature">
+                            <a class="pull-right">
+                                <i class="fa fa-vcard-o fa-2x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h3 class="media-heading">Contact List</h3>
+                                Meeting new friends? All will be saved here.
+                            </div>
+                        </div>
+                        <div class="media text-right feature">
+                            <a class="pull-right">
+                                <i class="fa fa-qrcode fa-2x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h3 class="media-heading">QR Code Integration</h3>
+                                Help you to check in and add contact.
+                            </div>
+                        </div>
+                        <div class="media text-right feature">
+                            <a class="pull-right">
+                                <i class="fa fa-calendar fa-2x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h3 class="media-heading">Agenda</h3>
+                                See the schedule of the event.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4" >
+                        <img src="assets/img/freeze/iphone-freeze2.png" class="img-responsive scrollpoint sp-effect5" alt="">
+                    </div>
+                    <div class="col-md-4 col-sm-4 scrollpoint sp-effect2">
+                        <div class="media feature">
+                            <a class="pull-left">
+                                <i class="fa fa-map-marker fa-2x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h3 class="media-heading">Map</h3>
+                                See the location in one tap.
+                            </div>
+                        </div>
+                        <div class="media feature">
+                            <a class="pull-left">
+                                <i class="fa fa-share-alt fa-2x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h3 class="media-heading">Social Media Sharing</h3>
+                                Need a friend to accompany? You can share the event to them.
+                            </div>
+                        </div>
+                        <div class="media feature">
+                            <a class="pull-left">
+                                <i class="fa fa-file-text-o fa-2x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h3 class="media-heading">Survey</h3>
+                                You can rate the event and give feedback for the next event!
+                            </div>
+                        </div>
+                        <div class="media feature">
+                            <a class="pull-left">
+                                <i class="fa fa-check fa-2x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h3 class="media-heading">Check In</h3>
+                                You can easily check in by using your QR Code.
+                            </div>
+                        </div>
+                        <div class="media active feature">
+                            <a class="pull-left">
+                                <i class="fa fa-plus fa-2x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h3 class="media-heading">And much more!</h3>
+                                Get our app to see all the features.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews">
+            <div class="container">
+                <div class="section-heading inverse scrollpoint sp-effect3">
+                    <h1>Reviews</h1>
+                    <div class="divider"></div>
+                    <p>Read What's The People Are Saying About Us</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 col-md-push-1 scrollpoint sp-effect3">
+                        <div class="review-filtering">
+                            <div class="review">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="review-person">
+                                            <img src="http://api.randomuser.me/portraits/women/94.jpg" alt="" class="img-responsive">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <div class="review-comment">
+                                            <h3>“I love Otion, I highly recommend it, Everyone Try It Now”</h3>
+                                            <p>
+                                                - Krin Fox
+                                                <span>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star-o fa-lg"></i>
+                                                </span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review rollitin">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="review-person">
+                                            <img src="http://api.randomuser.me/portraits/men/70.jpg" alt="" class="img-responsive">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <div class="review-comment">
+                                            <h3>“Otion Is The Best Stable, Fast App I Have Ever Experienced”</h3>
+                                            <p>
+                                                - Theodore Willis
+                                                <span>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star-half-o fa-lg"></i>
+                                                    <i class="fa fa-star-o fa-lg"></i>
+                                                </span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review rollitin">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="review-person">
+                                            <img src="http://api.randomuser.me/portraits/men/93.jpg" alt="" class="img-responsive">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <div class="review-comment">
+                                            <h3>“Keep It Up Guys, Your Work Rocks! Cheers :)”</h3>
+                                            <p>
+                                                - Ricky Grant
+                                                <span>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star-half-o fa-lg"></i>
+                                                    <i class="fa fa-star-o fa-lg"></i>
+                                                </span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="screens">
+            <div class="container">
+
+                <div class="section-heading scrollpoint sp-effect3">
+                    <h1>Screens</h1>
+                    <div class="divider"></div>
+                    <p>See what’s included in the App</p>
+                </div>
+
+                <div class="filter scrollpoint sp-effect3">
+                    <a href="javascript:void(0)" class="button js-filter-all active">All Screens</a>
+                    <a href="javascript:void(0)" class="button js-filter-one">User Access</a>
+                    <a href="javascript:void(0)" class="button js-filter-two">Social Network</a>
+                    <a href="javascript:void(0)" class="button js-filter-three">Media Players</a>
+                </div>
+                <div class="slider filtering scrollpoint sp-effect5" >
+                    <div class="one">
+                        <img src="assets/img/freeze/screens/profiles.png" alt="">
+                        <h4>Profile Page</h4>
+                    </div>
+                    <div class="two">
+                        <img src="assets/img/freeze/screens/discover.png" alt="">
+                        <h4>Discover Event</h4>
+                    </div>
+                    <div class="three">
+                        <img src="assets/img/freeze/screens/weather.jpg" alt="">
+                        <h4>Weather Forcast</h4>
+                    </div>
+                    <div class="one">
+                        <img src="assets/img/freeze/screens/signup.jpg" alt="">
+                        <h4>Sign Up</h4>
+                    </div>
+                    <div class="one">
+                        <img src="assets/img/freeze/screens/calendar.jpg" alt="">
+                        <h4>Event Calendar</h4>
+                    </div>
+                    <div class="two">
+                        <img src="assets/img/freeze/screens/options.jpg" alt="">
+                        <h4>Some Options</h4>
+                    </div>
+                    <div class="three">
+                        <img src="assets/img/freeze/screens/sales.jpg" alt="">
+                        <h4>Sales Analysis</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section id="demo">
+            <div class="container">
+                <div class="section-heading scrollpoint sp-effect3">
+                    <h1>Demo</h1>
+                    <div class="divider"></div>
+                    <p>Take a closer look in more detail</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 scrollpoint sp-effect2">
+                        <div class="video-container" >
+                            <iframe src="http://player.vimeo.com/video/70984663"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <section id="getApp">
+            <div class="container-fluid">
+                <div class="section-heading inverse scrollpoint sp-effect3">
+                    <h1>Get App</h1>
+                    <div class="divider"></div>
+                    <p>Choose your native platform and get started!</p>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="hanging-phone scrollpoint sp-effect2 hidden-xs">
+                            <img src="assets/img/freeze/freeze-angled3.png" alt="">
+                        </div>
+                        <div class="platforms">
+                            <a href="https://drive.google.com/file/d/0BzlPR4tP3H8qMXZYekctVTdzSXM/view?usp=sharing" class="btn btn-primary inverse scrollpoint sp-effect1">
+                                <i class="fa fa-android fa-3x pull-left"></i>
+                                <span>Download for</span><br>
+                                <b>Android</b>
+                            </a>
+                            
+                                <a href="#" class="btn btn-primary inverse scrollpoint sp-effect2">
+                                    <i class="fa fa-apple fa-3x pull-left"></i>
+                                    <span>Download for</span><br>
+                                    <b>Apple IOS</b>
+                                </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                
+
+            </div>
+        </section>
+
+        <section id="support" class="doublediagonal">
+            <div class="container">
+                <div class="section-heading scrollpoint sp-effect3">
+                    <h1>Support</h1>
+                    <div class="divider"></div>
+                    <p>For more info and support, contact us!</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-8 col-sm-8 scrollpoint sp-effect1">
+                                <form role="form">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Your name">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Your email">
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea cols="30" rows="10" class="form-control" placeholder="Your message"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                </form>
+                            </div>
+                            <div class="col-md-4 col-sm-4 contact-details scrollpoint sp-effect2">
+                                <div class="media">
+                                    <a class="pull-left" href="#" >
+                                        <i class="fa fa-map-marker fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Cyber 2 Tower 33rd Floor, Jl. HR Rasuna Said X5 No. 13
+Jakarta Selatan, 12950</h4>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <a class="pull-left" href="#" >
+                                        <i class="fa fa-envelope fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">
+                                            <a href="mailto:support@oleose.com">support@cbn.net.id</a>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <a class="pull-left" href="#" >
+                                        <i class="fa fa-phone fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">+62 21 29964900</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <a href="#" class="scrollpoint sp-effect3">
+                    <img src="assets/img/freeze/otionlogo.png" alt="" class="logo">
+                </a>
+                <div class="social">
+                    <a href="https://twitter.com/CBNinternet" class="scrollpoint sp-effect3"><i class="fa fa-twitter fa-lg"></i></a>
+                    <a href="https://www.instagram.com/cbninternet/" class="scrollpoint sp-effect3"><i class="fa fa-instagram fa-lg"></i></a>
+                    <a href="https://www.facebook.com/cbninternet" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>
+                    <a href="http://www.cbn.net.id" class="scrollpoint sp-effect3"><i class="fa fa-globe fa-lg"></i></a>
+                </div>
+                <div class="rights">
+                    <p><a href="terms.html">Terms of Service</a> | <a href="privacy.html">Privacy Policy</a> | <a href="help.html">Help</a></p>
+                    <p>Copyright &copy; 2017. Cyberindo Aditama. All Right Reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+        
+
+    </div>
+    <script src="assets/js/jquery-1.11.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/placeholdem.min.js"></script>
+    <script src="assets/js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+    <script src="assets/js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <script>
+        $(document).ready(function() {
+            appMaster.preLoader();
+        });
+    </script>
+</body>
+
+</html>
